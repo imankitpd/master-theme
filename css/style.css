@@ -1,0 +1,44 @@
+body {
+    background: #465E78;
+}
+
+.top-padding {
+    margin-top: 80px;
+}
+
+/*Blue-List Coloring*/
+ul.blue-list li {
+    background: #152840;
+}
+
+#152840
+
+/*For details Box*/
+.details-box {
+    padding: 10px;
+}
+
+    .details-box h4 {
+        display: inline;
+        color: #56CCC8;
+    }
+
+    .details-box a.h-arrow i {
+        font-size: 20px;
+        color: #56CCC8;
+    }
+
+/*For detail list*/
+ul.details-list {
+    padding: 0;
+}
+
+    ul.details-list li {
+        list-style: none;
+        padding: 7px 0;
+    }
+
+        ul.details-list li a {
+            color: #CFD9E0;
+            text-decoration: none;
+        }
