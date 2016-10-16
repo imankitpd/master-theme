@@ -1,6 +1,10 @@
 body {
     background: #465E78;
-        font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none!important;
 }
 
 .top-padding {
@@ -13,6 +17,18 @@ body {
 
 ul.li-no-padding li {
     padding: 0;
+}
+
+/*Menu Designing*/
+ul.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+ul.menu li a i {
+    font-size: 25px;
+    margin-right:15px; 
+    color: #C5CDD0;
 }
 
 /*Blue-List Coloring*/
@@ -55,7 +71,6 @@ ul.details-list {
 
         ul.details-list li a {
             color: #CFD9E0;
-            text-decoration: none;
             -webkit-transition: all 0.2s ease-in-out;
             -moz-transition: all 0.2s ease-in-out;
             -o-transition: all 0.2s ease-in-out;
@@ -65,3 +80,55 @@ ul.details-list {
     ul.details-list li a:hover {
         color: #fff;
     }
+
+/*Social Media Links*/
+ul.social {
+    background: #ffffff;
+    padding: 20px;
+}
+    ul.social li {
+        border: 0 none;
+    }
+
+        ul.social li a {
+            padding: 10px;
+            display: block;
+        }
+
+            ul.social li a .circle {
+                background: #C5CDD0;
+                border-radius: 50%;
+                text-align: center;
+                margin-right: 10px;
+                width: 35px;
+                height: 35px;
+                display: inline-block;
+            }
+
+            ul.social li a i {
+                margin-top: 10px;
+            
+            }
+
+.social-box a {
+    display: block;
+    color: #ffffff;
+    padding: 23px;
+    margin-bottom: 20px; 
+}
+
+.social-box a.facebook {
+    background: #4B67A3;
+}
+
+.social-box a.twitter {
+    background: #42B8E7;
+}
+
+.social-box a .image {
+    margin-bottom: 30px;
+}
+    
+.social-box a .image i {
+    font-size: 50px;
+}
